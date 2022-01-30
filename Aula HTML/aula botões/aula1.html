@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Botões</title>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+
+		<h2>Login</h2>
+		<form> 
+			<!-- action pode enviar as infirmações do form formulario para processamento . -->
+			Login:<br>
+			<input type="text" name="login"><br>
+
+			Senha:<br>
+			<input type="password" name="senha"><br> 
+			<!-- esse <br> acima permite que o botão fique em baixo com uma quebra de linha . -->
+			<!-- text para texto padrão, password ocuta caracteres. -->
+			<input type="button" value="Logar">
+			<!-- value para colocar um texto para o button -->
+			<!-- submit também pode ser usado como botão para enviar -->
+		</form>	
+
+			<h2>Cadastre-se</h2>
+
+			<form>
+			Login:<br>
+			<input type="text" name="login"><br><br>
+
+			sexo: <br>
+			<input type="radio" name="sexo" value="M"> Masculino<br>
+			<input type="radio" name="sexo" value="F"> Feminino<br>
+			<!-- "sexo" no name são iguais para poder marcar apenas uma opção --> 
+			<!-- value para saber o valor que foi passado -->
+
+			Interesses<br>
+			<input type="checkbox" name="Interesses"> Futebol
+			<br>
+			<input type="checkbox" name="Interesses"> Cursos
+			<br>
+			<input type="checkbox" name="Interesses"> Moda
+			<br><br>
+			<!--checkbox pode escolher mais de uma opção, neme para poder agrupar todas em uma só -->
+			Estado<br>	
+			<select name="estado">
+				<option value="sp">SP</option>
+				<option value="rj">RJ</option>
+				<option value="mg">MG</option>
+				<option value="am">AM</option>
+				<option value="st">ST</option>
+				<option value="rs">RS</option>
+			</select><br>
+
+			Observações: <br>
+			<textarea></textarea>
+			<br>
+
+			<input type="submit" name="Cadastrar">
+
+
+	</form>
+
+
+	</body>
+</html>
